@@ -1,0 +1,20 @@
+.project-overview-card {
+  flex: 0 1 calc(33% - 30px);
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(0, 0, 0, .3);
+
+  > div {
+    margin-bottom: 10px;
+
+    > label {
+      display: block;
+      font-weight: bold;
+    }
+  }
+
+  progress {
+    width: 100%;
+  }
+}

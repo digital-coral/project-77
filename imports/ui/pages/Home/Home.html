@@ -1,0 +1,18 @@
+<template name="Home">
+	<div class="home">
+		<h1>Your projects</h1>
+		<div class="projects-overview">
+			{{#each project in projects}}
+				{{> ProjectOverviewCard project=project}}
+			{{/each}}
+		</div>
+
+		{{#if Template.subscriptionsReady}}
+			{{#if hasMoreProjects}}
+				<a href="#" class="load-more">Load more</a>
+			{{/if}}
+		{{else}}
+				<div class="loading">{{> spinner}}</div>
+		{{/if}}
+	</div>
+</template>

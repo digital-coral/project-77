@@ -1,0 +1,20 @@
+<template name="MainLayoutNavbar">
+	<div class="main-layout-navbar">
+		<ul>
+			<li>
+				{{#Popup
+					additionalClasses="test test-2"
+					displayText="Create Project"
+					title="Create Project"
+				}}
+					{{> CreateProject}}
+				{{/Popup}}
+			</li>
+			<li><a href="#">Tasks</a></li>
+			<li><a href="#">Appointments</a></li>
+			<li><a href="#">Messenger</a></li>
+			<li><a href="#">Settings</a></li>
+			<li><a href="#">Logout</a></li>
+		</ul>
+	</div>
+</template>

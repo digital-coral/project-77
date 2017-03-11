@@ -1,0 +1,46 @@
+# meteor librarys
+meteor-base@1.0.4
+ecmascript@0.6.3
+es5-shim@4.6.15
+tracker@1.1.2
+
+# standard librarys
+jquery@1.11.10
+underscore
+fourseven:scss
+
+# ui
+blaze-html-templates@1.0.4
+reactive-dict
+reactive-var@1.0.11
+aldeed:template-extension
+percolate:momentum
+sacha:spin
+
+# data
+mongo@1.1.15
+aldeed:simple-schema
+aldeed:collection2
+dburles:collection-helpers
+reywood:publish-composite
+mdg:validated-method
+mdg:validation-error
+
+# routing
+kadira:flow-router
+kadira:blaze-layout
+arillo:flow-router-helpers
+zimme:active-route
+
+# mobile
+mobile-experience@1.0.4
+
+# production
+seba:minifiers-autoprefixer
+standard-minifier-js@1.2.2
+
+# testing
+shell-server@0.2.2
+
+# debugging
+meteortoys:allthings

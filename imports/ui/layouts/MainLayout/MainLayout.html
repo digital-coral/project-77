@@ -1,0 +1,12 @@
+<template name="MainLayout">
+	<div class="main-layout">
+		<div class="main-layout__header">
+			{{> MainLayoutLogo}}
+			{{> MainLayoutNavbar}}
+		</div>
+		<div class="main-layout__content">
+			{{> Template.dynamic template=content}}
+		</div>
+		<div class="main-layout__obfuscator"></div>
+	</div>
+</template>

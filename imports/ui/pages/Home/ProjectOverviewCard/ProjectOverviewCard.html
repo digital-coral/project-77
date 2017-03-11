@@ -1,0 +1,17 @@
+<template name="ProjectOverviewCard">
+	<div class="project-overview-card">
+		<h3>{{project.title}}</h3>
+		<div>
+			<label for="">Project stage</label>
+			<span id="stage">{{project.stage}}</span>
+		</div>
+		<div>
+			<label for="">Client</label>
+			<span id="client">{{project.client}}</span>
+		</div>
+		<div>
+			<label for="">Progress</label>
+			<progress value="{{project.progress}}" max="100"></progress>
+		</div>
+	</div>
+</template>

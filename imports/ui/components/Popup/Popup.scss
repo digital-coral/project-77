@@ -1,0 +1,37 @@
+.popup {
+  display: none;
+  position: absolute;
+  margin-top: 5px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  background-color: white;
+  z-index: 99;
+
+  .popup__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    position: relative;
+
+    .close {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      right: 0;
+      cursor: pointer;
+    }
+  }
+
+  .popup__content {
+    padding: 10px 6px;
+  }
+
+  &.visible {
+    display: block;
+  }
+}

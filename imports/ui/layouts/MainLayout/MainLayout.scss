@@ -1,0 +1,27 @@
+@import './MainLayoutLogo/MainLayoutLogo';
+@import './MainLayoutNavbar/MainLayoutNavbar';
+
+.main-layout__header {
+  display: flex;
+}
+
+.main-layout__content {
+  padding: 24px;
+}
+
+.main-layout__obfuscator {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  &.visible {
+    display: block;
+    opacity: 100;
+  }
+}

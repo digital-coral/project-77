@@ -1,0 +1,20 @@
+<template name="Popup">
+	<div class="popup-toggle {{this.additionalClasses}}">
+
+		{{this.displayText}}
+
+		<div class="popup">
+
+			<div class="popup__header">
+				<span>{{this.title}}</span>
+				<span class="close">&times;</span>
+			</div>
+
+			<div class="popup__content">
+				{{> UI.contentBlock}}
+			</div>
+
+		</div>
+
+	</div>
+</template>
